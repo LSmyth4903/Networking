@@ -1,4 +1,4 @@
-# Networking Day 1: Fundamentals & Home Lab
+# Networking Day 1: Fundamentals
 
 📅 Date: 7 July 2025  
 👤 Name: Lee Smyth
