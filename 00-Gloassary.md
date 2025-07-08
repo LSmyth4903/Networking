@@ -1,28 +1,28 @@
-# Networking Glossary – Lee Smyth
+# Networking Glossary – Lee Smyth 🧠
 
 ---
 
-## Network  
+## Network 🔌  
 A group of connected devices (computers, phones, printers, etc.) that can communicate and share resources like files, internet, or printers.
 
 ---
 
-## Internet  
+## Internet 🌐  
 A massive network of networks that allows devices around the world to communicate. It uses a standardized set of protocols (like TCP/IP) to transfer data.
 
 ---
 
-## Router  
+## Router 📶  
 A device that connects your local network (like your home Wi-Fi) to the internet. It routes data between your devices and external networks. Often includes a built-in switch and wireless access point.
 
 ---
 
-## Switch  
+## Switch 🔄  
 A device that connects multiple devices within a local network and forwards data only to the specific device it’s meant for. More efficient than a hub.
 
 ---
 
-## Port  
+## Port 🚪  
 A numbered “door” on a device used to identify specific services or apps.  
 Examples:  
 - **Port 80** – HTTP (web traffic)  
@@ -32,101 +32,101 @@ Examples:
 
 ---
 
-## IP Address  
+## IP Address 📬  
 A unique identifier for a device on a network.  
-- **IPv4**: 32-bit (e.g., `192.168.1.1`)  
-- **IPv6**: 128-bit (e.g., `2001:0db8::7334`)
+- **IPv4**: 32-bit (e.g., 192.168.1.1)  
+- **IPv6**: 128-bit (e.g., 2001:0db8::7334)
 
 ---
 
-## Private IP Address  
+## Private IP Address 🏠  
 IP addresses used **inside** local networks only. Not routable on the internet.  
 Examples:  
-- `192.168.x.x`  
-- `10.x.x.x`  
-- `172.16.0.0 – 172.31.255.255`
+- 192.168.x.x  
+- 10.x.x.x  
+- 172.16.0.0 – 172.31.255.255
 
 ---
 
-## Public IP Address  
+## Public IP Address 🌍  
 Assigned by your ISP and used to access the internet. Routers share this public IP with internal devices using NAT.
 
 ---
 
-## NAT (Network Address Translation)  
+## NAT (Network Address Translation) 🔁  
 A method used by routers to rewrite private IP addresses into a single public IP address. Allows multiple devices to share one internet-facing IP.
 
 ---
 
-## MAC Address  
+## MAC Address 🧅  
 A unique identifier assigned to a network device’s hardware.  
-Format: `00:1A:2B:3C:4D:5E`  
+Format: 00:1A:2B:3C:4D:5E  
 Used **within a LAN**, doesn’t change like IP addresses can.
 
 ---
 
-## DHCP (Dynamic Host Configuration Protocol)  
+## DHCP (Dynamic Host Configuration Protocol) 🧙‍♂️  
 Automatically assigns IP addresses to devices on a network so you don’t have to configure them manually.
 
 ---
 
-## DNS (Domain Name System)  
-Translates domain names (like `google.com`) into IP addresses (`8.8.8.8`). Like a phone book for the internet.
+## DNS (Domain Name System) 📖  
+Translates domain names (like google.com) into IP addresses (8.8.8.8). Like a phone book for the internet.
 
 ---
 
-## Firewall  
+## Firewall 🚧  
 A network security system that controls incoming and outgoing traffic based on rules. Can block or allow certain ports, IPs, or protocols.
 
 ---
 
-## TCP (Transmission Control Protocol)  
+## TCP (Transmission Control Protocol) 📦  
 A connection-oriented protocol. Ensures data is delivered completely and in the correct order.  
-- Reliable  
-- Slower  
-- Used for: web browsing, file transfers
+- ✅ Reliable  
+- 🐢 Slower  
+- 📥 Used for: web browsing, file transfers
 
 ---
 
-## UDP (User Datagram Protocol)  
+## UDP (User Datagram Protocol) ✈️  
 A connectionless protocol. Faster but less reliable—data can arrive out of order or get lost.  
-- Unreliable  
-- Fast  
-- Used for: video streaming, gaming, DNS
+- ❌ Unreliable  
+- ⚡ Fast  
+- 📡 Used for: video streaming, gaming, DNS
 
 ---
 
-## LAN (Local Area Network)  
+## LAN (Local Area Network) 🖧  
 A small network limited to a geographic area like a house, office, or campus.
 
 ---
 
-## WAN (Wide Area Network)  
+## WAN (Wide Area Network) 🛣️  
 A large network that spans geographic locations—includes the internet.
 
 ---
 
-## Latency  
+## Latency ⌛  
 The time it takes for a packet of data to travel from source to destination. Measured in milliseconds (ms). Lower = better.
 
 ---
 
-## Bandwidth  
+## Bandwidth 🚥  
 The maximum amount of data that can be transferred in a given time. Measured in Mbps or Gbps.
 
 ---
 
-## Ping  
+## Ping 🛰️  
 A command that checks if a host is reachable and measures how long it takes to respond.
 
 ---
 
-## Traceroute / Tracert  
+## Traceroute / Tracert 🔍  
 A tool that shows each “hop” data takes to reach its destination. Helps identify where delays or drops occur.
 
 ---
 
-## OSI Model (7 Layers)  
+## OSI Model (7 Layers) 🧱  
 A conceptual framework used to understand network interactions.
 
 | Layer | Name         | Description / Examples             |
@@ -143,13 +143,13 @@ A conceptual framework used to understand network interactions.
 
 ---
 
-## Port Forwarding  
+## Port Forwarding 🧭  
 A router configuration that forwards a request from a public IP and port to a private IP and port inside the network. Used to host game servers, websites, etc.
 
 ---
 
-## IPv4 vs IPv6  
-- **IPv4**: 4.3 billion addresses (e.g., `192.168.1.1`)  
-- **IPv6**: 340 undecillion addresses (e.g., `2001:db8::1`)
+## IPv4 vs IPv6 🌐  
+- **IPv4**: 4.3 billion addresses (e.g., 192.168.1.1)  
+- **IPv6**: 340 undecillion addresses (e.g., 2001:db8::1)
 
 ---
