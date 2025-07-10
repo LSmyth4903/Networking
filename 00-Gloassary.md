@@ -1,155 +1,113 @@
 # Networking Glossary – Lee Smyth 🧠
 
----
+## Network Fundamentals
 
-## Network 🔌  
-A group of connected devices (computers, phones, printers, etc.) that can communicate and share resources like files, internet, or printers.
+- **Network 🔌**  
+  A group of connected devices (e.g., computers, phones, printers) that share resources like files, internet, or printers.
 
----
+- **Internet 🌐**  
+  A global network of networks connecting devices worldwide using standardized protocols like TCP/IP.
 
-## Internet 🌐  
-A massive network of networks that allows devices around the world to communicate. It uses a standardized set of protocols (like TCP/IP) to transfer data.
+- **LAN (Local Area Network) 🖧**  
+  A small network limited to a specific area, like a home, office, or campus.
 
----
+- **WAN (Wide Area Network) 🛣️**  
+  A large network spanning geographic areas, including the internet.
 
-## Router 📶  
-A device that connects your local network (like your home Wi-Fi) to the internet. It routes data between your devices and external networks. Often includes a built-in switch and wireless access point.
+- **Packet 📦**  
+  Small chunks of data sent over a network.
 
----
+- **Latency ⌛**  
+  The time it takes for a data packet to travel from source to destination, measured in milliseconds (ms). Lower is better.
 
-## Switch 🔄  
-A device that connects multiple devices within a local network and forwards data only to the specific device it’s meant for. More efficient than a hub.
+- **Bandwidth 🚥**  
+  The maximum amount of data that can be transferred in a given time, measured in Mbps or Gbps.
 
----
+## Addressing
 
-## Port 🚪  
-A numbered “door” on a device used to identify specific services or apps.  
-Examples:  
-- **Port 80** – HTTP (web traffic)  
-- **Port 443** – HTTPS (secure web)  
-- **Port 22** – SSH (remote login)  
-- **Port 53** – DNS (name lookup)
+- **IP Address 📬**  
+  A unique identifier for a device on a network.  
+  - **IPv4**: 32-bit (e.g., `192.168.1.1`), ~4.3 billion addresses.  
+  - **IPv6**: 128-bit (e.g., `2001:0db8::7334`), vastly more addresses.
 
----
+- **Private IP Address 🏠**  
+  IP addresses used within local networks, not routable on the internet.  
+  - Examples: `192.168.x.x`, `10.x.x.x`, `172.16.0.0–172.31.255.255`.
 
-## IP Address 📬  
-A unique identifier for a device on a network.  
-- **IPv4**: 32-bit (e.g., 192.168.1.1)  
-- **IPv6**: 128-bit (e.g., 2001:0db8::7334)
+- **Public IP Address 🌍**  
+  Assigned by an ISP for internet access, shared via NAT for internal devices.
 
----
+- **MAC Address 🧅**  
+  A unique hardware identifier for a network device, e.g., `00:1A:2B:3C:4D:5E`. Used within a LAN and doesn’t change.
 
-## Private IP Address 🏠  
-IP addresses used **inside** local networks only. Not routable on the internet.  
-Examples:  
-- 192.168.x.x  
-- 10.x.x.x  
-- 172.16.0.0 – 172.31.255.255
+- **Port 🚪**  
+  A numbered identifier for specific services or apps on a device.  
+  - **Port 80**: HTTP (web traffic).  
+  - **Port 443**: HTTPS (secure web).  
+  - **Port 22**: SSH (remote login).  
+  - **Port 53**: DNS (name lookup).
 
----
+## Protocols
 
-## Public IP Address 🌍  
-Assigned by your ISP and used to access the internet. Routers share this public IP with internal devices using NAT.
+- **Protocol 📜**  
+  Rules defining how data is sent and received (e.g., TCP/IP, HTTP).
 
----
+- **TCP (Transmission Control Protocol) 📦**  
+  A reliable, connection-oriented protocol ensuring data delivery in order.  
+  - Used for: web browsing, file transfers.  
+  - Slower but reliable.
 
-## NAT (Network Address Translation) 🔁  
-A method used by routers to rewrite private IP addresses into a single public IP address. Allows multiple devices to share one internet-facing IP.
+- **UDP (User Datagram Protocol) ✈️**  
+  A fast, connectionless protocol, less reliable as data may arrive out of order or get lost.  
+  - Used for: video streaming, gaming, DNS.  
+  - Faster but unreliable.
 
----
+- **DHCP (Dynamic Host Configuration Protocol) 🧙‍♂️**  
+  Automatically assigns IP addresses to devices on a network, eliminating manual configuration.
 
-## MAC Address 🧅  
-A unique identifier assigned to a network device’s hardware.  
-Format: 00:1A:2B:3C:4D:5E  
-Used **within a LAN**, doesn’t change like IP addresses can.
+- **DNS (Domain Name System) 📖**  
+  Translates domain names (e.g., google.com) into IP addresses (e.g., 8.8.8.8), like a phone book for the internet.
 
----
+## Devices
 
-## DHCP (Dynamic Host Configuration Protocol) 🧙‍♂️  
-Automatically assigns IP addresses to devices on a network so you don’t have to configure them manually.
+- **Router 📶**  
+  A device that connects a local network to the internet, routing data and often including a switch and wireless access point.
 
----
+- **Switch 🔄**  
+  A device that connects devices within a LAN, forwarding data only to the intended recipient, more efficient than a hub.
 
-## DNS (Domain Name System) 📖  
-Translates domain names (like google.com) into IP addresses (8.8.8.8). Like a phone book for the internet.
+## Tools
 
----
+- **Ping 🛰️**  
+  A command that checks if a host is reachable and measures response time.
 
-## Firewall 🚧  
-A network security system that controls incoming and outgoing traffic based on rules. Can block or allow certain ports, IPs, or protocols.
+- **Traceroute / Tracert 🔍**  
+  A tool showing the path (hops) data takes to a destination, useful for identifying delays or failures.
 
----
+## Security and Configuration
 
-## TCP (Transmission Control Protocol) 📦  
-A connection-oriented protocol. Ensures data is delivered completely and in the correct order.  
-- ✅ Reliable  
-- 🐢 Slower  
-- 📥 Used for: web browsing, file transfers
+- **Firewall 🚧**  
+  A security system that controls incoming and outgoing network traffic based on rules, blocking or allowing specific ports, IPs, or protocols.
 
----
+- **NAT (Network Address Translation) 🔁**  
+  A router process that translates private IP addresses to a single public IP, allowing multiple devices to share one internet-facing IP.
 
-## UDP (User Datagram Protocol) ✈️  
-A connectionless protocol. Faster but less reliable—data can arrive out of order or get lost.  
-- ❌ Unreliable  
-- ⚡ Fast  
-- 📡 Used for: video streaming, gaming, DNS
+- **Port Forwarding 🧭**  
+  A router configuration that directs requests from a public IP and port to a private IP and port, used for hosting servers (e.g., games, websites).
 
----
+## Frameworks
 
-## LAN (Local Area Network) 🖧  
-A small network limited to a geographic area like a house, office, or campus.
-
----
-
-## WAN (Wide Area Network) 🛣️  
-A large network that spans geographic locations—includes the internet.
-
----
-
-## Latency ⌛  
-The time it takes for a packet of data to travel from source to destination. Measured in milliseconds (ms). Lower = better.
-
----
-
-## Bandwidth 🚥  
-The maximum amount of data that can be transferred in a given time. Measured in Mbps or Gbps.
-
----
-
-## Ping 🛰️  
-A command that checks if a host is reachable and measures how long it takes to respond.
-
----
-
-## Traceroute / Tracert 🔍  
-A tool that shows each “hop” data takes to reach its destination. Helps identify where delays or drops occur.
-
----
-
-## OSI Model (7 Layers) 🧱  
-A conceptual framework used to understand network interactions.
+- **OSI Model (7 Layers) 🧱**  
+  A framework for understanding network interactions.
 
 | Layer | Name         | Description / Examples             |
 |-------|--------------|------------------------------------|
-| 7     | Application  | What the user interacts with (HTTP, FTP) |
-| 6     | Presentation | Translates data (encryption, SSL)  |
-| 5     | Session      | Maintains connections (RPC, NetBIOS) |
-| 4     | Transport    | Reliable delivery (TCP, UDP)       |
-| 3     | Network      | Routing (IP, ICMP)                 |
-| 2     | Data Link    | MAC addressing (Ethernet)          |
-| 1     | Physical     | Cables, Wi-Fi signals              |
+| 7     | Application  | User interaction (HTTP, FTP, Email) |
+| 6     | Presentation | Data formatting, encryption (SSL/TLS) |
+| 5     | Session      | Session management (APIs, NetBIOS) |
+| 4     | Transport    | Data transfer (TCP, UDP)           |
+| 3     | Network      | Routing, addressing (IP, ICMP)     |
+| 2     | Data Link    | MAC addressing, error detection (Ethernet) |
+| 1     | Physical     | Hardware, cables, Wi-Fi signals    |
 
-**Mnemonic:** "All People Seem To Need Data Processing"
-
----
-
-## Port Forwarding 🧭  
-A router configuration that forwards a request from a public IP and port to a private IP and port inside the network. Used to host game servers, websites, etc.
-
----
-
-## IPv4 vs IPv6 🌐  
-- **IPv4**: 4.3 billion addresses (e.g., 192.168.1.1)  
-- **IPv6**: 340 undecillion addresses (e.g., 2001:db8::1)
-
----
+**Mnemonic**: "All People Seem To Need Data Processing."
