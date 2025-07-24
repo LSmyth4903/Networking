@@ -308,13 +308,13 @@ Layouts of network connections.
 
 **Graph**: Topology Complexity
 ```
-   Mesh         |██████████ High redundancy
-   Hybrid       |████████ Mixed designs
-   Star         |██████ Simple, common
-   Spine/Leaf   |██████████ Data center
-   Point-to-Point |████ Direct
-   Three-Tier   |██████████ Scalable
-   Collapsed Core |██████ Cost-effective
+   Mesh         | High redundancy
+   Hybrid       | Mixed designs
+   Star         | Simple, common
+   Spine/Leaf   | Data center
+   Point-to-Point | Direct
+   Three-Tier   | Scalable
+   Collapsed Core | Cost-effective
 ```
 
 ## IPv4 Addressing 📍
