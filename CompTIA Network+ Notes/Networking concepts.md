@@ -40,13 +40,13 @@ The OSI model standardizes network functions into seven layers, essential for tr
 
 **Graph**: OSI Layer Functions
 ```
-   Application  |████████████ App services
-   Presentation |██████████ Data formatting
-   Session      |████████ Session management
-   Transport    |██████████ Reliable delivery
-   Network      |████████ Routing
-   Data Link    |██████ Device addressing
-   Physical     |████ Bit transmission
+   Application  | App services
+   Presentation | Data formatting
+   Session      | Session management
+   Transport    | Reliable delivery
+   Network      | Routing
+   Data Link    | Device addressing
+   Physical     | Bit transmission
 ```
 
 ## Networking Appliances 🛠️
