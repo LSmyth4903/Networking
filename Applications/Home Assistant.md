@@ -46,7 +46,8 @@ So far, I’ve added:
 
 These are visible on a basic dashboard to help me monitor the server and test simple automations.
 
-<img width="2874" height="1767" alt="image" src="https://github.com/user-attachments/assets/c59259a5-2d3b-4578-a344-ef2af231fd46" />
+<img width="1074" height="667" alt="image" src="https://github.com/user-attachments/assets/35c41731-68f3-4d3e-a996-a820fabc2fcc" />
+
 
 
 ---
