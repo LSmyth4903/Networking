@@ -2,6 +2,8 @@
 
 This documentation covers setting up pfSense as a virtual firewall/router within a Proxmox homelab. The setup creates a secure, segmented network by routing and managing traffic between the WAN (home network) and a private LAN subnet for lab devices.
 
+<img width="643" height="988" alt="image" src="https://github.com/user-attachments/assets/e11367d9-d13e-4656-83e0-fc1d2ceb4e20" />
+
 ## 📘 Glossary
 
 - **pfSense:** Open-source firewall and router software based on FreeBSD.  
