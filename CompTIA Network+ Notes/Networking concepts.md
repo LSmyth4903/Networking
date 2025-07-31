@@ -485,27 +485,8 @@ IPv4 uses 32-bit addresses (e.g., 192.168.1.1) to identify devices on a network.
 
 **Visual Aid 1: Coffee Shop Network with Four Subnets**
 This ASCII diagram illustrates a coffee shop network using 192.168.1.0/24 subnetted into four /26 subnets for Customers, IoT Devices, Staff, and POS Systems, connected via a router and switch in a star topology.
-```
-                [ Internet ]
-                     |
-                     | Public IP: 203.0.113.1
-                     |
-                [ Router ]
-                | 192.168.1.1/26 (Gateway)
-                |
-                | 192.168.1.0/24 (Subnetted)
-                |
-            [ Switch ]
-           /   |   |   \
-          /    |   |    \
-         /     |   |     \
-   [Wi-Fi AP] [IoT] [Staff] [POS]
-   | 192.168.1.2/26 | 192.168.1.66/26 | 192.168.1.130/26 | 192.168.1.194/26
-   |                |                |                |
-[Customers]    [IoT Devices]   [Staff Devices]   [POS Systems]
-192.168.1.1-62/26 192.168.1.65-126/26 192.168.1.129-190/26 192.168.1.193-254/26
-(62 hosts)        (62 hosts)        (62 hosts)        (62 hosts)
-```
+<img width="635" height="398" alt="image" src="https://github.com/user-attachments/assets/dcfa4113-bce5-4269-938d-61f46f9c098e" />
+
 - **Explanation**: The coffee shop uses 192.168.1.0/24, subnetted into four /26 networks:
   - **Customers (192.168.1.0–63/26)**: 62 usable hosts for customer devices (e.g., laptops, phones).
   - **IoT Devices (192.168.1.64–127/26)**: 62 usable hosts for IoT devices (e.g., smart thermostats, cameras).
@@ -515,24 +496,8 @@ This ASCII diagram illustrates a coffee shop network using 192.168.1.0/24 subnet
 
 **Visual Aid 2: NAT and Public vs. Private IP Addresses**
 This ASCII diagram illustrates the NAT process, showing a LAN with private IPs translated to a public IP for internet access.
-```
-[ Internet ]
-   | Public IP: 203.0.113.1
-   |
-[ Router w/ NAT ]
-   | Private IP: 192.168.1.1/24
-   | (Translates private IPs to public)
-   |
-[ Switch ]
-   / \
-  /   \
-[PC1] [PC2]
-192.168.1.2/24  192.168.1.3/24
-   |             |
-[Accesses google.com] [Accesses example.com]
-   |             |
-[Translated to 203.0.113.1:Port1] [Translated to 203.0.113.1:Port2]
-```
+<img width="640" height="686" alt="image" src="https://github.com/user-attachments/assets/8e926e84-e25a-4cba-b7de-c4d0cadc5d82" />
+
 - **Explanation**: Devices in the LAN use private IPs (192.168.1.2/24 and 192.168.1.3/24). The router performs NAT, translating these private IPs to a single public IP (203.0.113.1) with unique port numbers (e.g., Port1, Port2) to track sessions. This allows multiple devices to share one public IP for internet access, conserving public IP addresses and enhancing security by hiding internal IPs.
 
 **Quiz**:
