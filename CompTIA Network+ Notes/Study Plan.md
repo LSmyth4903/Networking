@@ -51,8 +51,8 @@
 ---
 
 ## Week 1 — Networking Concepts (Part 1) — OSI Model, Networking Appliances, Cloud Concepts  
-- [ ] Day 1: OSI Model Layers: physical, data link, network  
-- [ ] Day 2: OSI Model Layers: transport, session, presentation, application  
+- [x] Day 1: OSI Model Layers: physical, data link, network  
+- [x] Day 2: OSI Model Layers: transport, session, presentation, application  
 - [ ] Day 3: Networking Appliances: routers, switches, firewalls, IDS/IPS  
 - [ ] Day 4: Load balancers, proxies, NAS, SAN, wireless devices  
 - [ ] Day 5: Cloud Concepts: NFV, VPC, network security groups, cloud gateways  
