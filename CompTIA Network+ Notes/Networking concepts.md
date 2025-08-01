@@ -278,6 +278,9 @@ Physical or wireless mediums for transmitting network data.
 
 **Real-World Example**: An office uses Cat6 twisted pair cables for its LAN and Wi-Fi (802.11ax) for mobile devices, balancing speed and flexibility.
 
+<img width="3413" height="899" alt="image" src="https://github.com/user-attachments/assets/acf90180-4688-4caa-8eac-64eb5790c215" />
+
+
 **Homelab Activity**: **Test Cable Performance**
 - **Tool**: iPerf (free at iperf.fr).
 - **Objective**: Compare wired vs. wireless network performance.
