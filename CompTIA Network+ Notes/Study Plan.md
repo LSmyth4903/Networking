@@ -51,17 +51,17 @@
 ---
 
 ## Week 1 — Networking Concepts  
-- [ ] Day 1: OSI Model Layers 1-3  
+- [x] Day 1: OSI Model Layers 1-3  
   *Understand the physical layer (cables, connectors, signaling), data link layer (MAC addressing, switches, frames), and network layer (IP addressing, routing basics). Review how data travels through these layers.*  
-- [ ] Day 2: OSI Model Layers 4-7  
+- [x] Day 2: OSI Model Layers 4-7  
   *Study transport layer protocols (TCP/UDP), session management, presentation layer functions (encryption, compression), and application layer protocols.*  
-- [ ] Day 3: Networking Appliances  
+- [x] Day 3: Networking Appliances  
   *Explore roles, functions, and configuration basics of routers, switches, firewalls, IDS/IPS.*  
-- [ ] Day 4: Additional Appliances  
+- [x] Day 4: Additional Appliances  
   *Learn about load balancers, proxies, NAS and SAN storage, wireless devices (APs, controllers).*  
-- [ ] Day 5: Cloud Concepts  
+- [x] Day 5: Cloud Concepts  
   *Study NFV, VPCs, cloud security groups, gateways, plus deployment (public/private/hybrid) and service models (SaaS, IaaS, PaaS).*  
-- [ ] Day 6: Ports & Protocols Part 1  
+- [x] Day 6: Ports & Protocols Part 1  
   *Deep dive into FTP, SFTP, SSH, Telnet, SMTP, and DNS — how they work and their typical ports.*  
 
 ---
