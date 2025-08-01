@@ -51,114 +51,113 @@
 ---
 
 ## Week 1 — Networking Concepts  
-- **Day 1:** OSI Model Layers 1-3  
+- [ ] Day 1: OSI Model Layers 1-3  
   *Understand the physical layer (cables, connectors, signaling), data link layer (MAC addressing, switches, frames), and network layer (IP addressing, routing basics). Review how data travels through these layers.*  
-- **Day 2:** OSI Model Layers 4-7  
+- [ ] Day 2: OSI Model Layers 4-7  
   *Study transport layer protocols (TCP/UDP), session management, presentation layer functions (encryption, compression), and application layer protocols.*  
-- **Day 3:** Networking Appliances  
+- [ ] Day 3: Networking Appliances  
   *Explore roles, functions, and configuration basics of routers, switches, firewalls, IDS/IPS.*  
-- **Day 4:** Additional Appliances  
+- [ ] Day 4: Additional Appliances  
   *Learn about load balancers, proxies, NAS and SAN storage, wireless devices (APs, controllers).*  
-- **Day 5:** Cloud Concepts  
+- [ ] Day 5: Cloud Concepts  
   *Study NFV, VPCs, cloud security groups, gateways, plus deployment (public/private/hybrid) and service models (SaaS, IaaS, PaaS).*  
-- **Day 6:** Ports & Protocols Part 1  
+- [ ] Day 6: Ports & Protocols Part 1  
   *Deep dive into FTP, SFTP, SSH, Telnet, SMTP, and DNS — how they work and their typical ports.*  
 
 ---
 
 ## Week 2 — Networking Concepts & Traffic Types  
-- **Day 1:** Ports & Protocols Part 2  
+- [ ] Day 1: Ports & Protocols Part 2  
   *Study DHCP, HTTP/S, SNMP, LDAP, RDP, and SIP protocols, including use cases and security considerations.*  
-- **Day 2:** Traffic Types  
+- [ ] Day 2: Traffic Types  
   *Understand unicast, multicast, anycast, and broadcast traffic and scenarios where each is used.*  
-- **Day 3:** Wireless Transmission Media  
+- [ ] Day 3: Wireless Transmission Media  
   *Learn wireless standards (802.11 variants), cellular networks, satellite communications, and their characteristics.*  
-- **Day 4:** Wired Transmission Media  
+- [ ] Day 4: Wired Transmission Media  
   *Explore fiber optic, coaxial, and direct attached copper (DAC) cables, with pros/cons and typical uses.*  
-- **Day 5:** Transceivers & Connectors  
+- [ ] Day 5: Transceivers & Connectors  
   *Understand types like SC, LC, ST, MPO, and cable connectors like RJ45, RJ11, F-type, BNC.*  
-- **Day 6:** Network Topologies Part 1  
+- [ ] Day 6: Network Topologies Part 1  
   *Review mesh, hybrid, and star/hub-spoke topologies — advantages, disadvantages, and use cases.*  
 
 ---
 
 ## Week 3 — Network Topologies & IPv4 Addressing  
-- **Day 1:** Network Topologies Part 2  
+- [ ] Day 1: Network Topologies Part 2  
   *Study spine-leaf, point-to-point, three-tier, and collapsed core topologies.*  
-- **Day 2:** IPv4 Addressing Basics  
+- [ ] Day 2: IPv4 Addressing Basics  
   *Understand public vs private addressing, APIPA, loopback, and RFC1918 reserved ranges.*  
-- **Day 3:** IPv4 Address Classes & Subnetting Basics  
+- [ ] Day 3: IPv4 Address Classes & Subnetting Basics  
   *Learn address classes (A-E) and practice basic subnetting concepts.*  
-- **Day 4:** Advanced Subnetting  
+- [ ] Day 4: Advanced Subnetting  
   *Practice VLSM and CIDR to create efficient subnet masks.*  
-- **Day 5:** Routing Basics  
+- [ ] Day 5: Routing Basics  
   *Understand static vs dynamic routing, routing tables, and route metrics.*  
-- **Day 6:** Routing Protocols  
+- [ ] Day 6: Routing Protocols  
   *Overview of BGP, EIGRP, and OSPF: purposes, operation, and characteristics.*  
 
 ---
 
 ## Week 4 — Routing & Switching Technologies  
-- **Day 1:** Route Selection, NAT, PAT  
+- [ ] Day 1: Route Selection, NAT, PAT  
   *Learn how routers select routes and use NAT/PAT for IP address translation.*  
-- **Day 2:** FHRP and VIPs  
+- [ ] Day 2: FHRP and VIPs  
   *Understand First Hop Redundancy Protocols (HSRP, VRRP) and Virtual IP addresses.*  
-- **Day 3:** VLANs & Interface Configuration  
+- [ ] Day 3: VLANs & Interface Configuration  
   *Study VLAN concepts, configuration, tagging, and trunking.*  
-- **Day 4:** Spanning Tree, MTU, Jumbo Frames  
+- [ ] Day 4: Spanning Tree, MTU, Jumbo Frames  
   *Learn STP operation and frame size considerations.*  
-- **Day 5:** Wireless Devices  
+- [ ] Day 5: Wireless Devices  
   *Review wireless channels, frequencies, SSIDs, encryption types.*  
-- **Day 6:** Wireless Authentication & Antennas  
+- [ ] Day 6: Wireless Authentication & Antennas  
   *Understand authentication methods and antenna types/use cases.*  
 
 ---
 
 ## Week 5 — Physical Installations & Network Operations  
-- **Day 1:** Physical Installations  
+- [ ] Day 1: Physical Installations  
   *Cabling standards, power delivery, environmental factors like cooling and grounding.*  
-- **Day 2:** Power Considerations  
+- [ ] Day 2: Power Considerations  
   *Learn about PoE types, UPS basics, and grounding best practices.*  
-- **Day 3:** Documentation  
+- [ ] Day 3: Documentation  
   *Create physical & logical network diagrams, cable maps, asset inventories, and IP address management.*  
-- **Day 4:** Life-cycle Management  
+- [ ] Day 4: Life-cycle Management  
   *Understand equipment EOL, EOS, software upgrades, and decommissioning.*  
-- **Day 5:** Change Management  
+- [ ] Day 5: Change Management  
   *Study change request processes, approval, and documentation.*  
-- **Day 6:** Configuration Management  
+- [ ] Day 6: Configuration Management  
   *Backup and restore configurations, baseline config concepts.*  
 
 ---
 
 ## Week 6 — Network Monitoring & Disaster Recovery  
-- **Day 1:** Network Monitoring  
+- [ ] Day 1: Network Monitoring  
   *Use of SNMP, flow data, packet capture tools, and baseline metric tracking.*  
-- **Day 2:** Log Aggregation & API Integration  
+- [ ] Day 2: Log Aggregation & API Integration  
   *Learn centralized logging and integration methods for monitoring.*  
-- **Day 3:** Disaster Recovery Concepts  
+- [ ] Day 3: Disaster Recovery Concepts  
   *Review Recovery Point Objective (RPO), Recovery Time Objective (RTO), MTTR, MTBF.*  
-- **Day 4:** Disaster Recovery Sites  
+- [ ] Day 4: Disaster Recovery Sites  
   *Understand cold, warm, hot sites, active-active and active-passive configurations.*  
-- **Day 5:** Network Services  
+- [ ] Day 5: Network Services  
   *Study DHCP, SLAAC, DNS, NTP, PTP, and Network Time Security.*  
-- **Day 6:** Access & Management  
+- [ ] Day 6: Access & Management  
   *Explore VPNs, SSH, GUI management, APIs, and console access.*  
 
 ---
 
 ## Week 7 — Network Security & Troubleshooting  
-- **Day 1:** Logical Security  
+- [ ] Day 1: Logical Security  
   *Encryption basics, PKI, IAM, MFA, SSO, and authentication protocols (RADIUS, LDAP, SAML, TACACS+).*  
-- **Day 2:** Authorization Models & Physical Security  
+- [ ] Day 2: Authorization Models & Physical Security  
   *Least privilege, RBAC, geofencing; physical controls like cameras and locks.*  
-- **Day 3:** Deception Technologies & Security Terminology  
+- [ ] Day 3: Deception Technologies & Security Terminology  
   *Honeypots, honeynets, risk/vulnerability/threat concepts, CIA triad.*  
-- **Day 4:** Audits, Compliance & Network Segmentation  
+- [ ] Day 4: Audits, Compliance & Network Segmentation  
   *PCI DSS, GDPR, IoT/IIoT segmentation, SCADA, guest networks, BYOD.*  
-- **Day 5:** Types of Attacks & Social Engineering  
+- [ ] Day 5: Types of Attacks & Social Engineering  
   *DoS/DDoS, VLAN hopping, ARP/DNS poisoning, rogue devices, phishing, tailgating, and others.*  
-- **Day 6:** Security Features & Troubleshooting Methodology  
+- [ ] Day 6: Security Features & Troubleshooting Methodology  
   *Device hardening, NAC, ACLs, URL filtering; problem identification, theory testing, implementation, verification, documentation.*  
 
 ---
-
