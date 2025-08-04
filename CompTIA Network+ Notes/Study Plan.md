@@ -1,4 +1,4 @@
-# CompTIA Network+ 7-Week Theory Study Guide Checklist
+# ✅ CompTIA Network+ 6-Week Theory Study Guide Checklist
 
 ---
 
@@ -48,7 +48,6 @@
 - Performance issues: congestion, latency, packet loss, wireless interference.
 - Tools and protocols: protocol analyzers, command line tools, cable testers, Wi-Fi analyzers.
 
-# ✅ CompTIA Network+ 6-Week Theory Study Guide Checklist
 
 ---
 
