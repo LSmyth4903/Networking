@@ -1,4 +1,4 @@
-# ✅ CompTIA Network+ 6-Week Theory Study Guide Checklist
+# ✅ CompTIA Network+ Theory Study Guide Checklist
 
 ---
 
@@ -49,136 +49,430 @@
 - Tools and protocols: protocol analyzers, command line tools, cable testers, Wi-Fi analyzers.
 
 
+
+# ✅ CompTIA Network+ N10-009 Study Tracker
+
+## 1.0 Networking Concepts (23%)
+
+### 1.1 OSI Reference Model
+- [ ] Layer 1 - Physical  
+- [ ] Layer 2 - Data Link  
+- [ ] Layer 3 - Network  
+- [ ] Layer 4 - Transport  
+- [ ] Layer 5 - Session  
+- [ ] Layer 6 - Presentation  
+- [ ] Layer 7 - Application  
+
+### 1.2 Networking Appliances, Applications, and Functions
+#### Appliances
+- [ ] Router  
+- [ ] Switch  
+- [ ] Firewall  
+- [ ] IDS/IPS  
+- [ ] Load balancer  
+- [ ] Proxy  
+- [ ] NAS  
+- [ ] SAN  
+- [ ] Wireless (AP, Controller)  
+
+#### Applications
+- [ ] CDN (Content Delivery Network)  
+
+#### Functions
+- [ ] VPN (Virtual Private Network)  
+- [ ] QoS (Quality of Service)  
+- [ ] TTL (Time to Live)  
+
+### 1.3 Cloud Concepts & Connectivity
+#### Concepts
+- [ ] NFV (Network Functions Virtualization)  
+- [ ] VPC (Virtual Private Cloud)  
+- [ ] Network Security Groups  
+- [ ] Cloud Gateways (Internet, NAT)  
+
+#### Connectivity
+- [ ] VPN  
+- [ ] Direct Connect  
+
+#### Deployment Models
+- [ ] Public  
+- [ ] Private  
+- [ ] Hybrid  
+
+#### Service Models
+- [ ] SaaS  
+- [ ] IaaS  
+- [ ] PaaS  
+
+#### Other Concepts
+- [ ] Scalability  
+- [ ] Elasticity  
+- [ ] Multitenancy  
+
+### 1.4 Ports, Protocols, and Traffic Types
+#### Protocols/Ports
+- [ ] FTP (20/21)  
+- [ ] SFTP (22)  
+- [ ] SSH (22)  
+- [ ] Telnet (23)  
+- [ ] SMTP (25)  
+- [ ] DNS (53)  
+- [ ] DHCP (67/68)  
+- [ ] TFTP (69)  
+- [ ] HTTP (80)  
+- [ ] NTP (123)  
+- [ ] SNMP (161/162)  
+- [ ] LDAP (389)  
+- [ ] HTTPS (443)  
+- [ ] SMB (445)  
+- [ ] Syslog (514)  
+- [ ] SMTPS (587)  
+- [ ] LDAPS (636)  
+- [ ] SQL Server (1433)  
+- [ ] RDP (3389)  
+- [ ] SIP (5060/5061)  
+
+#### IP Types
+- [ ] ICMP  
+- [ ] TCP  
+- [ ] UDP  
+- [ ] GRE  
+- [ ] IPSec (AH, ESP, IKE)  
+
+#### Traffic Types
+- [ ] Unicast  
+- [ ] Multicast  
+- [ ] Anycast  
+- [ ] Broadcast  
+
+### 1.5 Transmission Media & Transceivers
+#### Wireless
+- [ ] 802.11 Standards  
+- [ ] Cellular  
+- [ ] Satellite  
+
+#### Wired
+- [ ] 802.3 Standards  
+- [ ] Single-mode vs. Multi-mode Fiber  
+- [ ] DAC Cable  
+- [ ] Twinaxial  
+- [ ] Coaxial  
+- [ ] Cable Speeds  
+- [ ] Plenum vs. Non-Plenum  
+
+#### Transceivers
+- [ ] Ethernet  
+- [ ] Fibre Channel  
+
+#### Form Factors
+- [ ] SFP  
+- [ ] QSFP  
+
+#### Connector Types
+- [ ] SC  
+- [ ] LC  
+- [ ] ST  
+- [ ] MPO  
+- [ ] RJ11  
+- [ ] RJ45  
+- [ ] BNC  
+- [ ] F-Type  
+
+### 1.6 Network Topologies, Architectures, and Traffic Flows
+- [ ] Mesh  
+- [ ] Distribution  
+- [ ] Hybrid  
+- [ ] Access  
+- [ ] Star/Hub & Spoke  
+- [ ] Collapsed Core  
+- [ ] Spine and Leaf  
+- [ ] Three-tier Hierarchical Model  
+- [ ] Point-to-Point  
+- [ ] North-South  
+- [ ] East-West  
+
+### 1.7 IPv4 Addressing
+- [ ] Public vs. Private  
+- [ ] APIPA  
+- [ ] RFC1918  
+- [ ] Loopback  
+- [ ] Subnetting  
+- [ ] VLSM  
+- [ ] CIDR  
+- [ ] IPv4 Classes (A, B, C, D, E)  
+
+### 1.8 Modern Network Environments
+- [ ] SDN & SD-WAN  
+- [ ] Application Aware  
+- [ ] Zero-touch Provisioning  
+- [ ] Transport Agnostic  
+- [ ] Central Policy Management  
+- [ ] VXLAN  
+- [ ] DCI  
+- [ ] ZTA (Zero Trust Architecture)  
+- [ ] Policy-based Auth  
+- [ ] Least Privilege  
+- [ ] SASE/SSE  
+
+#### IaC (Infrastructure as Code)
+- [ ] Playbooks/Templates  
+- [ ] Config Drift/Compliance  
+- [ ] Upgrades  
+- [ ] Dynamic Inventory  
+- [ ] Source Control (Version control, Branching, Conflicts)  
+
+#### IPv6
+- [ ] Mitigating Address Exhaustion  
+- [ ] Compatibility  
+- [ ] Tunneling  
+- [ ] Dual Stack  
+- [ ] NAT64  
+
+
 ---
 
-## Week 1 — OSI Model, Devices, and Cloud Fundamentals
+## 2.0 Network Implementation (20%)
 
-- [ ] **Day 1: OSI Model Overview** (1.1)  
-  Understand all 7 OSI layers and how data moves through each one.
+### 2.1 Routing Technologies
+- [ ] Static Routing  
+- [ ] Dynamic Routing (BGP, EIGRP, OSPF)  
+- [ ] Administrative Distance  
+- [ ] Prefix Length  
+- [ ] Metric  
+- [ ] NAT  
+- [ ] PAT  
+- [ ] FHRP  
+- [ ] VIP  
+- [ ] Subinterfaces  
 
-- [ ] **Day 2: Networking Devices** (1.1)  
-  Routers, switches, firewalls, IDS/IPS, load balancers, proxies, NAS, SAN, wireless devices.
+### 2.2 Switching Technologies
+- [ ] VLAN  
+- [ ] VLAN Database  
+- [ ] SVI  
+- [ ] Interface Configuration  
+- [ ] Native VLAN  
+- [ ] Voice VLAN  
+- [ ] 802.1Q Tagging  
+- [ ] Link Aggregation  
+- [ ] Speed  
+- [ ] Duplex  
+- [ ] Spanning Tree  
+- [ ] MTU  
+- [ ] Jumbo Frames  
 
-- [ ] **Day 3: Network Functions** (1.2)  
-  Core network services and their roles.
+### 2.3 Wireless Technologies
+- [ ] Channel Width  
+- [ ] Non-overlapping Channels  
+- [ ] Regulatory Impacts (802.11h)  
+- [ ] Frequency Options (2.4GHz, 5GHz, 6GHz)  
+- [ ] Band Steering  
+- [ ] SSID, BSSID, ESSID  
+- [ ] Mesh, Ad Hoc, Point to Point, Infrastructure  
+- [ ] Encryption (WPA2, WPA3)  
+- [ ] Guest Networks  
+- [ ] Captive Portals  
+- [ ] Authentication (PSK vs. Enterprise)  
+- [ ] Omnidirectional vs. Directional Antennas  
+- [ ] Autonomous vs. Lightweight APs  
 
-- [ ] **Day 4: Designing the Cloud** (1.3)  
-  NFV, VPC, cloud security groups, gateways.
-
-- [ ] **Day 5: Cloud Models** (1.3)  
-  Deployment models (Public, Private, Hybrid) and Service models (SaaS, IaaS, PaaS).
-
-- [ ] **Day 6: Introduction to IP** (1.4)  
-  IPv4 basics, address types (public/private, loopback, APIPA).
-
----
-
-## Week 2 — Protocols, Wireless, and Media
-
-- [ ] **Day 1: Common Ports & Protocols** (1.4)  
-  FTP, SFTP, SSH, Telnet, SMTP, DNS, DHCP, HTTP, HTTPS, SNMP, LDAP, RDP, SIP.
-
-- [ ] **Day 2: Other Useful Protocols & Traffic Types** (1.4)  
-  NTP, Syslog, ICMP; traffic types: unicast, multicast, anycast, broadcast.
-
-- [ ] **Day 3: Wireless Networking** (1.5)  
-  802.11 standards, frequencies, channels, encryption, AP types.
-
-- [ ] **Day 4: Ethernet Standards & Optical Fiber** (1.5)  
-  Ethernet speeds, full/half duplex, single-mode vs multi-mode fiber.
-
-- [ ] **Day 5: Copper Cabling & Transceivers** (1.5)  
-  Coax, twisted pair, DAC; SFP/QSFP/GBIC and connectors (SC, LC, RJ45, etc.).
-
-- [ ] **Day 6: Network Topologies** (1.6)  
-  Star, mesh, hub-spoke, spine-leaf, three-tier, point-to-point.
-
----
-
-## Week 3 — IPv4 Addressing and Subnetting
-
-- [ ] **Day 1: IPv4 Addressing Basics** (1.7)  
-  Public vs private, APIPA, loopback, RFC1918.
-
-- [ ] **Day 2: Classful Addressing and Subnet Masks** (1.7)  
-  Address classes A-E, default masks.
-
-- [ ] **Day 3: Calculating IPv4 Subnets and Hosts** (1.7)  
-  Practice subnet calculations, usable hosts, CIDR.
-
-- [ ] **Day 4: Magic Number & 7-Second Subnetting** (1.7)  
-  Speed subnetting techniques.
-
-- [ ] **Day 5: IPv6 Addressing** (1.8)  
-  Structure, shorthand, address types (link-local, global).
-
-- [ ] **Day 6: Software Defined Networking & VXLAN** (1.8)  
-  SDN concepts, VXLAN overlays and tunneling.
+### 2.4 Physical Installations
+- [ ] IDF  
+- [ ] MDF  
+- [ ] Rack Size  
+- [ ] Port-side Exhaust/Intake  
+- [ ] Patch Panel  
+- [ ] Fiber Distribution Panel  
+- [ ] Lockable Equipment  
+- [ ] UPS  
+- [ ] PDU  
+- [ ] Power Load  
+- [ ] Voltage  
+- [ ] Humidity  
+- [ ] Fire Suppression  
+- [ ] Temperature  
 
 ---
 
-## Week 4 — Routing & Switching
+## 3.0 Network Operations (19%)
 
-- [ ] **Day 1: Dynamic Routing** (2.1)  
-  Routing protocols: RIP, OSPF, EIGRP, BGP.
+### 3.1 Organizational Processes
+- [ ] Physical vs. Logical Diagrams  
+- [ ] Rack Diagrams  
+- [ ] Cable Maps  
+- [ ] Network Diagrams (Layer 1/2/3)  
+- [ ] Asset Inventory  
+- [ ] IPAM  
+- [ ] SLA  
+- [ ] Wireless Survey / Heat Map  
+- [ ] EOL / EOS  
+- [ ] Patch/Firmware Management  
+- [ ] Decommissioning  
+- [ ] Change Management  
+- [ ] Configuration Management  
+- [ ] Backup / Baseline / Golden Image  
 
-- [ ] **Day 2: NAT and PAT** (2.1)  
-  Static NAT, Dynamic NAT, PAT scenarios.
+### 3.2 Network Monitoring
+- [ ] Flow Data  
+- [ ] Baseline Metrics  
+- [ ] Anomaly Alerting  
+- [ ] SNMP (v2c, v3, MIB, Traps, Community Strings)  
+- [ ] Log Aggregation (Syslog, SIEM)  
+- [ ] API Integration  
+- [ ] Port Mirroring  
+- [ ] Network Discovery  
+- [ ] Traffic Analysis  
+- [ ] Performance/Availability Monitoring  
 
-- [ ] **Day 3: VLANs and Trunking** (2.2)  
-  VLAN concepts, trunk ports, native VLANs.
+### 3.3 Disaster Recovery
+- [ ] RPO  
+- [ ] RTO  
+- [ ] MTTR  
+- [ ] MTBF  
+- [ ] Cold Site  
+- [ ] Warm Site  
+- [ ] Hot Site  
+- [ ] Active-Active  
+- [ ] Active-Passive  
+- [ ] Tabletop Exercises  
+- [ ] Validation Tests  
 
-- [ ] **Day 4: Interface Config & Spanning Tree** (2.2)  
-  Speed/duplex settings, STP loop prevention.
+### 3.4 IPv4 and IPv6 Services
+- [ ] DHCP (Reservations, Scope, Lease, Options, Relay, Exclusions)  
+- [ ] SLAAC  
+- [ ] DNS (DNSSEC, DoH, DoT, Record Types, Zones, Authoritative vs. Non-authoritative, Primary vs. Secondary, Recursive)  
+- [ ] Hosts File  
+- [ ] NTP  
+- [ ] PTP  
+- [ ] NTS  
 
-- [ ] **Day 5: Wireless Technologies** (2.3)  
-  Channels, SSID, guest networks, authentication, encryption types.
-
-- [ ] **Day 6: Network Types & Wireless Encryption** (2.3)  
-  Enterprise vs personal modes, WPA2/WPA3, open networks.
+### 3.5 Network Access and Management
+- [ ] VPN (Site-to-site, Client-to-site, Split/Full Tunnel)  
+- [ ] SSH  
+- [ ] GUI  
+- [ ] API  
+- [ ] Console  
+- [ ] Jump Box / Host  
+- [ ] In-band vs. Out-of-band  
 
 ---
 
-## Week 5 — Network Operations & Services
+## 4.0 Network Security (17%)
 
-- [ ] **Day 1: Installing Networks & Power** (2.4)  
-  Cabling, rack setup, PoE, UPS, grounding.
+### 4.1 Basic Network Security
+- [ ] Encryption (In Transit / At Rest)  
+- [ ] Certificates (PKI, Self-signed)  
+- [ ] IAM (AuthN, MFA, SSO, RADIUS, LDAP, SAML, TACACS+, Time-based)  
+- [ ] Authorization (Least Privilege, Role-based)  
+- [ ] Geofencing  
+- [ ] Cameras  
+- [ ] Locks  
+- [ ] Honeypot / Honeynet  
+- [ ] Risk / Vulnerability / Exploit / Threat  
+- [ ] CIA Triad  
+- [ ] Audits  
+- [ ] Data Locality  
+- [ ] PCI DSS / GDPR  
+- [ ] Network Segmentation (IoT/IIoT, SCADA/ICS/OT, Guest, BYOD)  
 
-- [ ] **Day 2: Environmental Factors & Topologies** (2.4, 1.6)  
-  Cooling, EMI, airflow; revisit topologies in context.
+### 4.2 Attacks and Impact
+- [ ] DoS/DDoS  
+- [ ] VLAN Hopping  
+- [ ] MAC Flooding  
+- [ ] ARP Poisoning/Spoofing  
+- [ ] DNS Poisoning/Spoofing  
+- [ ] Rogue DHCP / AP Devices  
+- [ ] Evil Twin  
+- [ ] On-path Attacks  
+- [ ] Phishing  
+- [ ] Dumpster Diving  
+- [ ] Shoulder Surfing  
+- [ ] Tailgating  
+- [ ] Malware  
 
-- [ ] **Day 3: Documentation & Life-cycle Mgmt** (3.1)  
-  Diagrams, asset inventory, IPAM, EOL/EOS.
-
-- [ ] **Day 4: Configuration & Change Mgmt** (3.1)  
-  Backups, baselines, change request process.
-
-- [ ] **Day 5: SNMP, Logs & Monitoring** (3.2)  
-  SNMP v2/v3, flow data, packet capture, log aggregation.
-
-- [ ] **Day 6: Redundancy & Disaster Recovery** (3.3)  
-  MTTR, RTO, hot/warm/cold sites, active-active/passive.
+### 4.3 Security Solutions
+- [ ] Disable Unused Ports/Services  
+- [ ] Change Default Passwords  
+- [ ] NAC  
+- [ ] Port Security  
+- [ ] 802.1X  
+- [ ] MAC Filtering  
+- [ ] Key Management  
+- [ ] ACL  
+- [ ] URL Filtering  
+- [ ] Content Filtering  
+- [ ] Trusted vs. Untrusted Zones  
+- [ ] Screened Subnet  
 
 ---
 
-## Week 6 — Core Services, Security & Troubleshooting
+## 5.0 Network Troubleshooting (21%)
 
-- [ ] **Day 1: Network Services** (3.4)  
-  DHCP, SLAAC, DNS records, NTP/PTP/NTS.
+### 5.1 Troubleshooting Methodology
+- [ ] Identify the Problem  
+- [ ] Establish a Theory  
+- [ ] Test the Theory  
+- [ ] Plan of Action  
+- [ ] Implement or Escalate  
+- [ ] Verify Functionality  
+- [ ] Document Findings  
 
-- [ ] **Day 2: VPNs & Remote Access** (3.5)  
-  Split tunnel, full tunnel, client setup, SSH, console.
+### 5.2 Cabling and Interface Issues
+- [ ] Incorrect Cable (SMF vs MMF, Cat 5–8, STP/UTP)  
+- [ ] Crosstalk, Interference, Attenuation  
+- [ ] Improper Termination  
+- [ ] TX/RX Transposed  
+- [ ] CRC, Runts, Giants, Drops  
+- [ ] Error Disabled, Admin Down, Suspended Ports  
+- [ ] PoE Budget or Standards Mismatch  
+- [ ] Transceiver Mismatch  
 
-- [ ] **Day 3: Security Concepts & Authentication** (4.1)  
-  CIA triad, MFA, IAM, RADIUS, SAML, PKI.
+### 5.3 Network Services Issues
+- [ ] Network Loops  
+- [ ] Root Bridge Selection  
+- [ ] Port States  
+- [ ] VLAN Assignment  
+- [ ] ACL  
+- [ ] Routing Table  
+- [ ] Route Selection  
+- [ ] Default Routes  
+- [ ] Address Pool Exhaustion  
+- [ ] Incorrect Default Gateway  
+- [ ] Duplicate IP  
+- [ ] Incorrect Subnet Mask  
+- [ ] Congestion / Bottlenecks  
+- [ ] Latency / Packet Loss / Jitter  
+- [ ] Channel Overlap  
+- [ ] Wireless Signal Loss  
+- [ ] Client Disassociation  
+- [ ] Roaming Issues  
 
-- [ ] **Day 4: Attacks & Vulnerabilities** (4.2)  
-  DoS/DDoS, VLAN hopping, ARP/DNS poisoning, phishing, rogue services.
+### 5.4 Troubleshooting Tools
+#### Software Tools
+- [ ] Protocol Analyzer  
+- [ ] ping  
+- [ ] traceroute/tracert  
+- [ ] nslookup  
+- [ ] tcpdump  
+- [ ] dig  
+- [ ] netstat  
+- [ ] ip/ifconfig/ipconfig  
+- [ ] arp  
+- [ ] Nmap  
+- [ ] LLDP/CDP  
+- [ ] Speed Tester  
 
-- [ ] **Day 5: Device Security & ACLs** (4.3)  
-  Hardening, ACLs, trusted zones, NAC, segmentation.
+#### Hardware Tools
+- [ ] Toner  
+- [ ] Cable Tester  
+- [ ] Taps  
+- [ ] Wi-Fi Analyzer  
+- [ ] Visual Fault Locator  
 
-- [ ] **Day 6: Troubleshooting Methodology** (5.1)  
-  Problem identification, hypothesis, plan, implement, verify, document.
-
-
+#### Device Commands
+- [ ] show mac-address-table  
+- [ ] show route  
+- [ ] show interface  
+- [ ] show config  
+- [ ] show arp  
+- [ ] show vlan  
+- [ ] show power  
