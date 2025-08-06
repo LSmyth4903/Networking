@@ -55,82 +55,82 @@
 ## 1.0 Networking Concepts (23%)
 
 ### 1.1 OSI Reference Model
-- [ ] Layer 1 - Physical  
-- [ ] Layer 2 - Data Link  
-- [ ] Layer 3 - Network  
-- [ ] Layer 4 - Transport  
-- [ ] Layer 5 - Session  
-- [ ] Layer 6 - Presentation  
-- [ ] Layer 7 - Application  
+- [x] Layer 1 - Physical  
+- [x] Layer 2 - Data Link  
+- [x] Layer 3 - Network  
+- [x] Layer 4 - Transport  
+- [x] Layer 5 - Session  
+- [x] Layer 6 - Presentation  
+- [x] Layer 7 - Application  
 
 ### 1.2 Networking Appliances, Applications, and Functions
 #### Appliances
-- [ ] Router  
-- [ ] Switch  
-- [ ] Firewall  
-- [ ] IDS/IPS  
-- [ ] Load balancer  
-- [ ] Proxy  
-- [ ] NAS  
-- [ ] SAN  
-- [ ] Wireless (AP, Controller)  
+- [x] Router  
+- [x] Switch  
+- [x] Firewall  
+- [x] IDS/IPS  
+- [x] Load balancer  
+- [x] Proxy  
+- [x] NAS  
+- [x] SAN  
+- [x] Wireless (AP, Controller)  
 
 #### Applications
 - [ ] CDN (Content Delivery Network)  
 
 #### Functions
-- [ ] VPN (Virtual Private Network)  
+- [x] VPN (Virtual Private Network)  
 - [ ] QoS (Quality of Service)  
 - [ ] TTL (Time to Live)  
 
 ### 1.3 Cloud Concepts & Connectivity
 #### Concepts
-- [ ] NFV (Network Functions Virtualization)  
-- [ ] VPC (Virtual Private Cloud)  
-- [ ] Network Security Groups  
-- [ ] Cloud Gateways (Internet, NAT)  
+- [x] NFV (Network Functions Virtualization)  
+- [x] VPC (Virtual Private Cloud)  
+- [x] Network Security Groups  
+- [x] Cloud Gateways (Internet, NAT)  
 
 #### Connectivity
-- [ ] VPN  
-- [ ] Direct Connect  
+- [x] VPN  
+- [x] Direct Connect  
 
 #### Deployment Models
-- [ ] Public  
-- [ ] Private  
-- [ ] Hybrid  
+- [x] Public  
+- [x] Private  
+- [x] Hybrid  
 
 #### Service Models
-- [ ] SaaS  
-- [ ] IaaS  
-- [ ] PaaS  
+- [x] SaaS  
+- [x] IaaS  
+- [x] PaaS  
 
 #### Other Concepts
-- [ ] Scalability  
-- [ ] Elasticity  
+- [x] Scalability  
+- [x] Elasticity  
 - [ ] Multitenancy  
 
 ### 1.4 Ports, Protocols, and Traffic Types
 #### Protocols/Ports
-- [ ] FTP (20/21)  
-- [ ] SFTP (22)  
-- [ ] SSH (22)  
-- [ ] Telnet (23)  
-- [ ] SMTP (25)  
-- [ ] DNS (53)  
-- [ ] DHCP (67/68)  
-- [ ] TFTP (69)  
-- [ ] HTTP (80)  
-- [ ] NTP (123)  
-- [ ] SNMP (161/162)  
-- [ ] LDAP (389)  
-- [ ] HTTPS (443)  
-- [ ] SMB (445)  
-- [ ] Syslog (514)  
-- [ ] SMTPS (587)  
-- [ ] LDAPS (636)  
-- [ ] SQL Server (1433)  
-- [ ] RDP (3389)  
-- [ ] SIP (5060/5061)  
+- [x] FTP (20/21)  
+- [x] SFTP (22)  
+- [x] SSH (22)  
+- [x] Telnet (23)  
+- [x] SMTP (25)  
+- [x] DNS (53)  
+- [x] DHCP (67/68)  
+- [x] TFTP (69)  
+- [x] HTTP (80)  
+- [x] NTP (123)  
+- [x] SNMP (161/162)  
+- [x] LDAP (389)  
+- [x] HTTPS (443)  
+- [x] SMB (445)  
+- [x] Syslog (514)  
+- [x] SMTPS (587)  
+- [x] LDAPS (636)  
+- [x] SQL Server (1433)  
+- [x] RDP (3389)  
+- [x] SIP (5060/5061)  
 
 #### IP Types
 - [ ] ICMP  
