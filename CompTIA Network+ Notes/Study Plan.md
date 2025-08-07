@@ -192,27 +192,27 @@
 - [ ] East-West  
 
 ### 1.7 IPv4 Addressing
-- [ ] Public vs. Private  
-- [ ] APIPA  
-- [ ] RFC1918  
-- [ ] Loopback  
-- [ ] Subnetting  
+- [x] Public vs. Private  
+- [x] APIPA  
+- [x] RFC1918  
+- [x] Loopback  
+- [x] Subnetting  
 - [ ] VLSM  
 - [ ] CIDR  
-- [ ] IPv4 Classes (A, B, C, D, E)  
+- [x] IPv4 Classes (A, B, C, D, E)  
 
 ### 1.8 Modern Network Environments
-- [ ] SDN & SD-WAN  
-- [ ] Application Aware  
+- [x] SDN & SD-WAN  
+- [x] Application Aware  
 - [ ] Zero-touch Provisioning  
 - [ ] Transport Agnostic  
 - [ ] Central Policy Management  
-- [ ] VXLAN  
+- [x] VXLAN  
 - [ ] DCI  
-- [ ] ZTA (Zero Trust Architecture)  
+- [x] ZTA (Zero Trust Architecture)  
 - [ ] Policy-based Auth  
 - [ ] Least Privilege  
-- [ ] SASE/SSE  
+- [x] SASE/SSE  
 
 #### IaC (Infrastructure as Code)
 - [ ] Playbooks/Templates  
