@@ -76,7 +76,7 @@
 - [x] Wireless (AP, Controller)  
 
 #### Applications
-- [ ] CDN (Content Delivery Network)  
+- [x] CDN (Content Delivery Network)  
 
 #### Functions
 - [x] VPN (Virtual Private Network)  
@@ -137,7 +137,7 @@
 - [x] TCP  
 - [x] UDP  
 - [ ] GRE  
-- [ ] IPSec (AH, ESP, IKE)  
+- [x] IPSec (AH, ESP, IKE)  
 
 #### Traffic Types
 - [x] Unicast  
@@ -158,7 +158,7 @@
 - [x] Twinaxial  
 - [x] Coaxial  
 - [x] Cable Speeds  
-- [ ] Plenum vs. Non-Plenum  
+- [x] Plenum vs. Non-Plenum  
 
 #### Transceivers
 - [x] Ethernet  
@@ -184,12 +184,12 @@
 - [x] Hybrid  
 - [x] Access  
 - [x] Star/Hub & Spoke  
-- [ ] Collapsed Core  
-- [ ] Spine and Leaf  
-- [ ] Three-tier Hierarchical Model  
-- [ ] Point-to-Point  
-- [ ] North-South  
-- [ ] East-West  
+- [x] Collapsed Core  
+- [x] Spine and Leaf  
+- [x] Three-tier Hierarchical Model  
+- [x] Point-to-Point  
+- [x] North-South  
+- [x] East-West  
 
 ### 1.7 IPv4 Addressing
 - [x] Public vs. Private  
@@ -197,8 +197,8 @@
 - [x] RFC1918  
 - [x] Loopback  
 - [x] Subnetting  
-- [ ] VLSM  
-- [ ] CIDR  
+- [x] VLSM  
+- [x] CIDR  
 - [x] IPv4 Classes (A, B, C, D, E)  
 
 ### 1.8 Modern Network Environments
