@@ -107,7 +107,7 @@
 #### Other Concepts
 - [x] Scalability  
 - [x] Elasticity  
-- [ ] Multitenancy  
+- [x] Multitenancy  
 
 ### 1.4 Ports, Protocols, and Traffic Types
 #### Protocols/Ports
@@ -179,11 +179,11 @@
 - [ ] F-Type  
 
 ### 1.6 Network Topologies, Architectures, and Traffic Flows
-- [ ] Mesh  
-- [ ] Distribution  
-- [ ] Hybrid  
-- [ ] Access  
-- [ ] Star/Hub & Spoke  
+- [x] Mesh  
+- [x] Distribution  
+- [x] Hybrid  
+- [x] Access  
+- [x] Star/Hub & Spoke  
 - [ ] Collapsed Core  
 - [ ] Spine and Leaf  
 - [ ] Three-tier Hierarchical Model  
@@ -223,9 +223,9 @@
 
 #### IPv6
 - [ ] Mitigating Address Exhaustion  
-- [ ] Compatibility  
+- [x] Compatibility  
 - [ ] Tunneling  
-- [ ] Dual Stack  
+- [x] Dual Stack  
 - [ ] NAT64  
 
 
