@@ -80,8 +80,8 @@
 
 #### Functions
 - [x] VPN (Virtual Private Network)  
-- [ ] QoS (Quality of Service)  
-- [ ] TTL (Time to Live)  
+- [x] QoS (Quality of Service)  
+- [x] TTL (Time to Live)  
 
 ### 1.3 Cloud Concepts & Connectivity
 #### Concepts
@@ -133,40 +133,40 @@
 - [x] SIP (5060/5061)  
 
 #### IP Types
-- [ ] ICMP  
-- [ ] TCP  
-- [ ] UDP  
+- [x] ICMP  
+- [x] TCP  
+- [x] UDP  
 - [ ] GRE  
 - [ ] IPSec (AH, ESP, IKE)  
 
 #### Traffic Types
-- [ ] Unicast  
-- [ ] Multicast  
-- [ ] Anycast  
-- [ ] Broadcast  
+- [x] Unicast  
+- [x] Multicast  
+- [x] Anycast  
+- [x] Broadcast  
 
 ### 1.5 Transmission Media & Transceivers
 #### Wireless
-- [ ] 802.11 Standards  
-- [ ] Cellular  
-- [ ] Satellite  
+- [x] 802.11 Standards  
+- [x] Cellular  
+- [x] Satellite  
 
 #### Wired
-- [ ] 802.3 Standards  
-- [ ] Single-mode vs. Multi-mode Fiber  
-- [ ] DAC Cable  
-- [ ] Twinaxial  
-- [ ] Coaxial  
-- [ ] Cable Speeds  
+- [x] 802.3 Standards  
+- [x] Single-mode vs. Multi-mode Fiber  
+- [x] DAC Cable  
+- [x] Twinaxial  
+- [x] Coaxial  
+- [x] Cable Speeds  
 - [ ] Plenum vs. Non-Plenum  
 
 #### Transceivers
-- [ ] Ethernet  
-- [ ] Fibre Channel  
+- [x] Ethernet  
+- [x] Fibre Channel  
 
 #### Form Factors
-- [ ] SFP  
-- [ ] QSFP  
+- [x] SFP  
+- [x] QSFP  
 
 #### Connector Types
 - [ ] SC  
